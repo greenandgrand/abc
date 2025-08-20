@@ -1,0 +1,11 @@
+Upload guide (GitHub web):
+1) Open: https://github.com/greenandgrand/percobaan/upload/main
+2) Drag & drop the folders 'api' and 'public' from this ZIP into the upload area.
+3) Write a commit message (e.g., "add api & public") and click Commit changes.
+
+Then on Vercel:
+- Storage → Blob → Create Store → Generate Read-Write Token
+- Settings → Environment Variables:
+  BLOB_READ_WRITE_TOKEN = <your token>
+  ADMIN_TOKEN          = <your long secret>
+- Redeploy → Test form and /admin

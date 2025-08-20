@@ -1,0 +1,13 @@
+{
+  "name": "sunflower-waitlist-free-monitor",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Waitlist landing page (email, farcaster, X, wallet) + monitoring (health check) on Vercel Free.",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "@vercel/blob": "latest"
+  }
+}
